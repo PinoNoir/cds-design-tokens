@@ -2,7 +2,7 @@
 This project is a potential setup of [Style Dictionary](https://github.com/amzn/style-dictionary) for generating design tokens for the *Cadence Design System*.
 
 
-**Notice**: *This code has been customized to work for all of Stretto's brands (AW, BCC, CP, TSC, TW) and platforms (Web), which can be exteded upon in the future. To view other customizations visit [API methods](https://amzn.github.io/style-dictionary/#/api).*
+**Notice**: *This code has been customized to work for all of Stretto's brands (AW, BCC, CP, TSC, TW) and platforms (Web), which can be exteded upon in the future. To view other Style Dictionary customizations visit [API methods](https://amzn.github.io/style-dictionary/#/api).*
 
 ## Initial setup
 Install the project dependencies via the CLI command:
