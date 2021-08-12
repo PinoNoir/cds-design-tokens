@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 12 Aug 2021 16:45:31 GMT
+ * Generated on Thu, 12 Aug 2021 17:15:39 GMT
  */
 
 export const CdsAliasColorBrandPrimaryCeleste = "#029b97";
@@ -83,7 +83,7 @@ export const CdsFontWeightRobotoBold = "Bold";
 export const CdsFontWeightRobotoNormal = "Regular";
 export const CdsFontWeightRobotoMedium = "Medium";
 export const CdsFontWeightRobotoLight = "Light";
-export const CdsLineHeightHeadings = "28px";
+export const CdsLineHeightHeadings = "32px";
 export const CdsLineHeightHeader2 = "25px";
 export const CdsLineHeightParagraph1 = "22px";
 export const CdsLineHeightParagraph2 = "20px";

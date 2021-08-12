@@ -1735,12 +1735,12 @@
     ]
   },
   {
-    "value": "28px",
+    "value": "32px",
     "category": "typography",
     "filePath": "tokens/globals/typography/index.json",
     "isSource": true,
     "original": {
-      "value": "28px",
+      "value": "32px",
       "category": "typography"
     },
     "name": "cds-line-height-headings",
