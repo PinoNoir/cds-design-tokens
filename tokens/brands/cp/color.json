@@ -1,0 +1,20 @@
+{
+    "alias": {
+        "color": {
+            "brand": {
+                "primary": {
+                    "celeste": {
+                        "value": "#029b97",
+                        "type": "color"
+                    }
+                },
+                "secondary": {
+                    "skydiver": {
+                        "value": "#2A7AB7",
+                        "type": "color"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "font_family": {
+        "roboto": {
+            "value": "'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
+            "category": "typography"
+        },
+        "monospace": {
+            "value": "'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace",
+            "category": "typography"
+        }
+    }
+}

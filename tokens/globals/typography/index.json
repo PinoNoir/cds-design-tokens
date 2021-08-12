@@ -1,0 +1,80 @@
+{
+    "font_size": {
+        "h1": {
+            "value": "2rem",
+            "category": "typography"
+        },
+        "h2": {
+            "value": "1.5625rem",
+            "category": "typography"
+        },
+        "h3": {
+            "value": "1.125rem",
+            "category": "typography"
+        },
+        "h4": {
+            "value": "1rem",
+            "category": "typography"
+        },
+        "h5": {
+            "value": "0.875rem",
+            "category": "typography"
+        },
+        "h6": {
+            "value": "0.075rem",
+            "category": "typography"
+        },
+        "default": {
+            "value": "0.875rem",
+            "category": "typography"
+        },
+        "small": {
+            "value": "0.75rem",
+            "category": "typography"
+        }
+    },
+    "font_weight": {
+        "roboto-bold": {
+          "value": "Bold",
+          "type": "font_weight",
+          "category": "typography"
+        },
+        "roboto-normal": {
+          "value": "Regular",
+          "type": "font_weight",
+          "category": "typography"
+        },
+        "roboto-medium": {
+          "value": "Medium",
+          "type": "font_weight",
+          "category": "typography"
+        },
+        "roboto-light": {
+          "value": "Light",
+          "type": "font_weight",
+          "category": "typography"
+        }
+      },
+    "line_height": {
+        "header_1": {
+            "value": "28px",
+            "category": "typography"
+        },
+        "header_2": {
+            "value": "25px",
+            "category": "typography"
+        },
+        "title": {
+            "value": "24px",
+            "category": "typography"
+        },
+        "paragraph_1": {
+            "value": "22px",
+            "category": "typography"
+        },
+        "paragraph_2": {
+            "value": "20px",
+            "category": "typography"
+        }
+    }
+}

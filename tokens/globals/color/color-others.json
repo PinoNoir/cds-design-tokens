@@ -1,0 +1,26 @@
+{
+    "color": {
+        "action_primary": {
+            "value": "#234676",
+            "type": "color"
+        },
+        "action_destructive": {
+            "value": "{color.red.value}",
+            "type": "color"
+        },
+        "border": {
+            "value": "{palette.grayscale.slate-80.value}",
+            "type": "color"
+        },
+        "user": {
+            "authenticated": {
+                "value": "{color.green.value}",
+                "type": "color"
+            },
+            "anonymous": {
+                "value": "{palette.grayscale.slate-40.value}",
+                "type": "color"
+            }
+        }
+    }
+}

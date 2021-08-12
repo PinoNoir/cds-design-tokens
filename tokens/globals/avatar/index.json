@@ -1,0 +1,20 @@
+{
+    "avatar": {
+        "size": {
+            "sm": {
+                "value": "32px"
+            },
+            "md": {
+                "value": "40px"
+            },
+            "lg": {
+                "value": "200px"
+            }
+        },
+        "border_radius": {
+            "circle": {
+                "value": "50%"
+            }
+        }
+    }
+}

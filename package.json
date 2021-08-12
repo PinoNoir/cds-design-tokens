@@ -1,0 +1,24 @@
+{
+  "name": "cds-design-tokens",
+  "version": "1.0.0",
+  "description": "Implementation of CDS Tokens using Style Dictionary",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./build.js",
+    "watch": "chokidar 'tokens/**/*.json' -c 'node ./build.js'"
+  },
+  "author": "Nicholas Pino",
+  "license": "MIT",
+  "devDependencies": {
+    "chokidar-cli": "^1.2.3",
+    "lodash": "^4.17.21",
+    "handlebars": "^4.7.7",
+    "style-dictionary": "^3.0.1"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.2",
+    "git": "^0.1.5",
+    "yarn": "^1.22.11"
+  }
+}

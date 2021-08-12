@@ -1,0 +1,25 @@
+{
+    "input": {
+        "placeholder": {
+            "value": "{palette.grayscale.slate-80.value}"
+        },
+        "choice": {
+            "size": {
+                "value": "24px"
+            }
+        },
+        "toggle": {
+            "width": {
+                "value": "40px"
+            },
+            "height": {
+                "value": "24px"
+            }
+        },
+        "search": {
+            "height": {
+                "value": "32px"
+            }
+        }
+    }
+}

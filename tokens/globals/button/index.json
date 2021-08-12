@@ -1,0 +1,12 @@
+{
+    "button": {
+        "border": {
+            "radius": {
+                "value": "{base.border.radius.value}"
+            },
+            "width": {
+                "value": "1px"
+            }
+        }
+    }
+}
