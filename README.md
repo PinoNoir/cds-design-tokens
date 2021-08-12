@@ -1,8 +1,8 @@
 # cds-design-tokens
-This project is a demonstration of a (possible) setup of [Style Dictionary](https://github.com/amzn/style-dictionary) for the generation of design tokens for the Cadence Design System.
+This project is a potential setup of [Style Dictionary](https://github.com/amzn/style-dictionary) for generating design tokens for the *Cadence Design System*.
 
 
-**Notice**: *Feel free to use this code as reference, or clone it and tailor it to your needs. But keep in mind that I have done in this project is not what I suggest you to do, unless you have a very clear idea of what you need and what you want to achieve. Style Dictionary comes with [a lot of pre-defined defaults](https://amzn.github.io/style-dictionary/), that most probably will work for you. Before starting to dig into all the possible customisations that you can have, try the default settings offered by the library, look at the output files, and see if they can suit your needs. Probably they will do. If they don't, think how you want the output files generated, and see which one of the [API methods](https://amzn.github.io/style-dictionary/#/api) you can use for that specific scope.*
+**Notice**: *This code has been customized to work for all of Stretto's brands (AW, BCC, CP, TSC, TW) and platforms (Web), which can be exteded upon in the future. To view other customizations visit [API methods](https://amzn.github.io/style-dictionary/#/api).*
 
 ## Initial setup
 Install the project dependencies via the CLI command:
@@ -12,9 +12,9 @@ npm install
 ```
 
 ## Project structure
-The project is made of these files and folders:
+Project file and folder structure:
 
-* `/tokens` contains the design tokens input files (in JSON format)
+* `/tokens` contains the design token input files (in JSON format)
 * `/dist` contains the generated output files (in different formats for the web including: Javascript, CSS, & SCSS)
 * `build.js` is the script used to generate the output files
 
