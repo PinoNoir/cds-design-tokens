@@ -1586,14 +1586,14 @@
       "value": "28px",
       "category": "typography"
     },
-    "name": "cds-line-height-header-1",
+    "name": "cds-line-height-headings",
     "attributes": {
       "category": "line_height",
-      "type": "header_1"
+      "type": "headings"
     },
     "path": [
       "line_height",
-      "header_1"
+      "headings"
     ]
   },
   {
@@ -1613,25 +1613,6 @@
     "path": [
       "line_height",
       "header_2"
-    ]
-  },
-  {
-    "value": "24px",
-    "category": "typography",
-    "filePath": "tokens/globals/typography/index.json",
-    "isSource": true,
-    "original": {
-      "value": "24px",
-      "category": "typography"
-    },
-    "name": "cds-line-height-title",
-    "attributes": {
-      "category": "line_height",
-      "type": "title"
-    },
-    "path": [
-      "line_height",
-      "title"
     ]
   },
   {

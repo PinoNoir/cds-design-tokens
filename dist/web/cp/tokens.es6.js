@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 11 Aug 2021 21:18:41 GMT
+ * Generated on Thu, 12 Aug 2021 16:45:31 GMT
  */
 
 export const CdsAliasColorBrandPrimaryCeleste = "#029b97";
@@ -83,9 +83,8 @@ export const CdsFontWeightRobotoBold = "Bold";
 export const CdsFontWeightRobotoNormal = "Regular";
 export const CdsFontWeightRobotoMedium = "Medium";
 export const CdsFontWeightRobotoLight = "Light";
-export const CdsLineHeightHeader1 = "28px";
+export const CdsLineHeightHeadings = "28px";
 export const CdsLineHeightHeader2 = "25px";
-export const CdsLineHeightTitle = "24px";
 export const CdsLineHeightParagraph1 = "22px";
 export const CdsLineHeightParagraph2 = "20px";
 export const CdsFontFamilyRoboto = "'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif";

@@ -56,16 +56,12 @@
         }
       },
     "line_height": {
-        "header_1": {
+        "headings": {
             "value": "28px",
             "category": "typography"
         },
         "header_2": {
             "value": "25px",
-            "category": "typography"
-        },
-        "title": {
-            "value": "24px",
             "category": "typography"
         },
         "paragraph_1": {
