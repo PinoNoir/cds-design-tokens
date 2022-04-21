@@ -12,13 +12,13 @@
   "license": "MIT",
   "devDependencies": {
     "lodash": "^4.17.21",
-    "style-dictionary": "^3.0.1"
+    "style-dictionary": "^3.7.0"
   },
   "dependencies": {
-    "chokidar-cli": "^1.2.3",
-    "handlebars": "^4.7.7",
     "chokidar": "^3.5.2",
+    "chokidar-cli": "^1.2.3",
     "git": "^0.1.5",
+    "handlebars": "^4.7.7",
     "yarn": "^1.22.11"
   }
 }

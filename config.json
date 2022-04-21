@@ -1,0 +1,119 @@
+{
+  "source": [
+    "tokens/bcc/**/*.json",
+    "tokens/bcc/foundations/*.json",
+    "tokens/bcc/components/*.json"
+  ],
+  "platforms": {
+    "scss": {
+      "transforms": ["attribute/cti", "name/cti/kebab", "color/hex", "size/rem", "content/icon"],
+      "transformGroup": "scss",
+      "buildPath": "build/scss/",
+      "prefix": "bcc",
+      "files": [{
+        "destination": "_colors.scss",
+        "format": "scss/variables",
+        "filter": {
+          "attributes": {
+            "category": "color"
+          }
+        }
+      },{
+        "destination": "_sizes.scss",
+        "format": "scss/variables",
+        "filter": {
+          "attributes": {
+            "category": "size"
+          }
+        }
+      },{
+        "destination": "_spacing.scss",
+        "format": "scss/variables",
+        "filter": {
+          "attributes": {
+            "category": "spacing"
+          }
+        }
+      },{
+        "destination": "_typography.scss",
+        "format": "scss/variables",
+        "filter": {
+          "attributes": {
+            "category": "font"
+          }
+        }
+      },{
+        "destination": "_button.scss",
+        "format": "scss/variables",
+        "filter": {
+          "attributes": {
+            "category": "button"
+          }
+        }
+      },{
+        "destination": "_input.scss",
+        "format": "scss/variables",
+        "filter": {
+          "attributes": {
+            "category": "input"
+          }
+        }
+      }]
+    },
+    "json": {
+      "transformGroup": "web",
+      "buildPath": "build/json/",
+      "prefix": "bcc",
+      "files": [{
+        "destination": "variables.json",
+        "format": "json/flat"
+      }]
+    },
+    "assets/embed/scss": {
+      "transforms": ["attribute/cti", "name/cti/kebab", "asset/base64"],
+      "buildPath": "build/scss/",
+      "files": [{
+        "destination": "_assets_icons.scss",
+        "format": "scss/variables",
+        "filter": {
+          "attributes": {
+            "category": "asset",
+            "type": "icon"
+          }
+        }
+      },{
+        "destination": "_assets_images.scss",
+        "format": "scss/variables",
+        "filter": {
+          "attributes": {
+            "category": "asset",
+            "type": "image"
+          }
+        }
+      }]
+    },
+    "assets/embed/json": {
+      "transforms": ["attribute/cti", "name/cti/kebab", "asset/base64"],
+      "buildPath": "build/json/",
+      "files": [{
+        "destination": "assets_icons.json",
+        "format": "json/flat",
+        "filter": {
+          "attributes": {
+            "category": "asset",
+            "type": "icon"
+          }
+        }
+      },{
+        "destination": "assets_images.json",
+        "format": "json/flat",
+        "filter": {
+          "attributes": {
+            "category": "asset",
+            "type": "image"
+          }
+        }
+      }]
+    }
+  }
+}

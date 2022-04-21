@@ -1,0 +1,92 @@
+{
+    "color": {
+        "primary": {
+            "celeste": {
+                "value": "#029B97",
+                "type": "color",
+                "comment": "BCC's primary color used for buttons, sidenav links and icons."
+            },
+            "celeste-50": {
+                "value": "#7AC6C4",
+                "type": "color",
+                "comment": "A 50% tint of BCC's primary color."
+            },
+            "celeste-20": {
+                "value": "#97F2EE",
+                "type": "color",
+                "comment": "A 20% tint of BCC's primary color used for input field focus states."
+            }
+        },
+        "backgrounds": {
+            "white": {
+                "value": "#FFFFFF",
+                "type": "color",
+                "comment": "Color used for styling panel backgrounds."
+            },
+            "fog": {
+                "value": "#F3F5FB",
+                "type": "color",
+                "comment": "Color used for styling main application background."
+            },
+            "alerts": {
+                "success": {
+                    "value": "#E8F6ED",
+                    "type": "color",
+                    "comment": "Color used for styling success app callout backgrounds." 
+                },
+                "info": {
+                    "value": "#EAF2F8",
+                    "type": "color",
+                    "comment": "Color used for styling information app callout backgrounds." 
+                },
+                "warning": {
+                    "value": "#FDF7E9",
+                    "type": "color",
+                    "comment": "Color used for styling warning app callout backgrounds." 
+                },
+                "danger": {
+                    "value": "#FCE9EB",
+                    "type": "color",
+                    "comment": "Color used for styling danger app callout backgrounds." 
+                }
+                
+            }
+        },
+        "swatches": {
+            "skydiver": {
+                "value": "#2A7Ab7",
+                "type": "color",
+                "comment": "Color used for styling information notifications, icons, and hyperlinks."
+            },
+            "goldfinger": {
+                "value": "#EBAA20",
+                "type": "color"
+            },
+            "wonka": {
+                "value": "#602966",
+                "type": "color"
+            },
+            "retro": {
+                "value": "#B21876",
+                "type": "color",
+                "comment": "Color used for styling information modal pop-ups, and icons."
+            },
+            "success": {
+                "value": "#16A550",
+                "type": "color",
+                "comment": "Color used for styling success notifications and icons."
+            },
+            "danger": {
+                "value": "#E12339",
+                "type": "color",
+                "comment": "Color is used to callout inline validation error text and dangerous outcomes."
+            },
+            "warning": {
+                "value": "#8D6613",
+                "type": "color",
+                "comment": "Color used to style warning notifications and text."
+            }
+        }
+    }
+    
+}

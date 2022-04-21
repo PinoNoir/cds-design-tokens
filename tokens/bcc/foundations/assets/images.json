@@ -1,0 +1,10 @@
+{
+    "asset": {
+        "image": { 
+            "stretto": {
+                "logo": { "value": "assets/images/stretto-logo.svg" }
+            }
+            
+        }
+    }
+}
