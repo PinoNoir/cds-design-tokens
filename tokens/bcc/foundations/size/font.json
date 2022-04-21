@@ -1,0 +1,37 @@
+{
+    "size": {
+        "h1": {
+            "value": "2rem",
+            "category": "typography"
+        },
+        "h2": {
+            "value": "1.5625rem",
+            "category": "typography"
+        },
+        "h3": {
+            "value": "1.125rem",
+            "category": "typography"
+        },
+        "h4": {
+            "value": "1rem",
+            "category": "typography"
+        },
+        "h5": {
+            "value": "0.875rem",
+            "category": "typography"
+        },
+        "h6": {
+            "value": "0.075rem",
+            "category": "typography"
+        },
+        "default": {
+            "value": "0.875rem",
+            "category": "typography"
+        },
+        "small": {
+            "value": "0.75rem",
+            "category": "typography"
+        }
+    }
+}
+    
