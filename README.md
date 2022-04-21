@@ -1,4 +1,4 @@
-# Cadence Design System Tokens
+# Cadence Design System BCC Tokens
 This project is a possible [Style Dictionary](https://github.com/amzn/style-dictionary) configuration to generate design tokens for *Cadence Design System*.
 
 
@@ -15,7 +15,7 @@ npm install style-dictionary
 Project file and folder structure:
 
 * `/tokens` contains the design token input files (in JSON format)
-* `/build` contains the generated output files (in different formats for the web including: Javascript, CSS, & SCSS)
+* `/build` contains the generated output files (This version is only configured to output SCSS files)
 * `config.json` is the script used to generate the output files
 
 ## Editing the JSON files
