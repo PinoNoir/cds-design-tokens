@@ -5,11 +5,66 @@
     "tokens/bcc/components/*.json"
   ],
   "platforms": {
+    "css": {
+      "transforms": ["attribute/cti", "name/cti/kebab", "color/hsl", "size/rem", "content/icon"],
+      "transformGroup": "css",
+      "buildPath": "build/css/",
+      "prefix": "cds",
+      "files": [{
+        "destination": "colors.css",
+        "format": "css/variables",
+        "filter": {
+          "attributes": {
+            "category": "color"
+          }
+        }
+      },{
+        "destination": "sizes.css",
+        "format": "css/variables",
+        "filter": {
+          "attributes": {
+            "category": "size"
+          }
+        }
+      },{
+        "destination": "spacing.css",
+        "format": "css/variables",
+        "filter": {
+          "attributes": {
+            "category": "spacing"
+          }
+        }
+      },{
+        "destination": "typography.css",
+        "format": "css/variables",
+        "filter": {
+          "attributes": {
+            "category": "font"
+          }
+        }
+      },{
+        "destination": "button.css",
+        "format": "css/variables",
+        "filter": {
+          "attributes": {
+            "category": "button"
+          }
+        }
+      },{
+        "destination": "input.css",
+        "format": "css/variables",
+        "filter": {
+          "attributes": {
+            "category": "input"
+          }
+        }
+      }]
+    },
     "scss": {
-      "transforms": ["attribute/cti", "name/cti/kebab", "color/hex", "size/rem", "content/icon"],
+      "transforms": ["attribute/cti", "name/cti/kebab", "color/hsl", "size/rem", "content/icon"],
       "transformGroup": "scss",
       "buildPath": "build/scss/",
-      "prefix": "bcc",
+      "prefix": "cds",
       "files": [{
         "destination": "_colors.scss",
         "format": "scss/variables",
@@ -60,21 +115,13 @@
         }
       }]
     },
-    "json": {
-      "transformGroup": "web",
-      "buildPath": "build/json/",
-      "prefix": "bcc",
+    "assets/embed/css": {
+      "transforms": ["attribute/cti","name/cti/kebab", "content/icon", "asset/base64"],
+      "buildPath": "build/css/",
+      "prefix": "cds",
       "files": [{
-        "destination": "variables.json",
-        "format": "json/flat"
-      }]
-    },
-    "assets/embed/scss": {
-      "transforms": ["attribute/cti", "name/cti/kebab", "asset/base64"],
-      "buildPath": "build/scss/",
-      "files": [{
-        "destination": "_assets_icons.scss",
-        "format": "scss/variables",
+        "destination": "icons.css",
+        "format": "css/variables",
         "filter": {
           "attributes": {
             "category": "asset",
@@ -82,31 +129,8 @@
           }
         }
       },{
-        "destination": "_assets_images.scss",
-        "format": "scss/variables",
-        "filter": {
-          "attributes": {
-            "category": "asset",
-            "type": "image"
-          }
-        }
-      }]
-    },
-    "assets/embed/json": {
-      "transforms": ["attribute/cti", "name/cti/kebab", "asset/base64"],
-      "buildPath": "build/json/",
-      "files": [{
-        "destination": "assets_icons.json",
-        "format": "json/flat",
-        "filter": {
-          "attributes": {
-            "category": "asset",
-            "type": "icon"
-          }
-        }
-      },{
-        "destination": "assets_images.json",
-        "format": "json/flat",
+        "destination": "images.css",
+        "format": "css/variables",
         "filter": {
           "attributes": {
             "category": "asset",

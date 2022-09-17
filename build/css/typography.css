@@ -1,0 +1,17 @@
+/**
+ * Do not edit directly
+ * Generated on Sat, 17 Sep 2022 19:25:24 GMT
+ */
+
+:root {
+  --cds-font-family-roboto: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  --cds-font-family-monospace: 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
+  --cds-font-weight-light: 300;
+  --cds-font-weight-regular: 400;
+  --cds-font-weight-medium: 500;
+  --cds-font-weight-bold: 700;
+  --cds-font-line-height-headings: 32px;
+  --cds-font-line-height-header-2: 25px;
+  --cds-font-line-height-paragraph-1: 22px;
+  --cds-font-line-height-paragraph-2: 20px;
+}
