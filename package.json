@@ -3,22 +3,22 @@
   "version": "1.0.0",
   "description": "Implementation of CDS Tokens using Style Dictionary",
   "main": "build.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node ./build.js",
-    "watch": "chokidar 'tokens/**/*.json' -c 'node ./config.json'"
-  },
   "author": "Nicholas Pino",
   "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "style-dictionary build",
+    "watch": "chokidar 'tokens/**/*.json' -c 'node ./build.js'"
+  },
   "devDependencies": {
     "lodash": "^4.17.21",
-    "style-dictionary": "^3.7.0"
+    "style-dictionary": "^3.7.1"
   },
   "dependencies": {
-    "chokidar": "^3.5.2",
-    "chokidar-cli": "^1.2.3",
+    "chokidar": "^3.5.3",
+    "chokidar-cli": "^3.0.0",
     "git": "^0.1.5",
     "handlebars": "^4.7.7",
-    "yarn": "^1.22.11"
+    "yarn": "^1.22.19"
   }
 }
