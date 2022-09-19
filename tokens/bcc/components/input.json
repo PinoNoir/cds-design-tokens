@@ -28,7 +28,7 @@
             }
         },
         "placeholder": {
-            "value": "{color.grayscale.slate-80.value}"
+            "value": "{color.base.gray.5.value}"
         },
         "choice": {
             "size": {

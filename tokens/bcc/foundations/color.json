@@ -1,27 +1,68 @@
 {
     "color": {
-        "primary": {
-            "celeste": {
+        "base": {
+            "gray": {
+                "9": {
+                  "value": "#173237",
+                  "type": "color"
+                },
+                "8": {
+                  "value": "#2E474B",
+                  "type": "color"
+                },
+                "7": {
+                  "value": "#455B5F",
+                  "type": "color"
+                },
+                "6": {
+                  "value": "#5D7073",
+                  "type": "color"
+                },
+                "5": {
+                  "value": "#748487",
+                  "type": "color"
+                },
+                "4": {
+                  "value": "#8B999b",
+                  "type": "color"
+                },
+                "3": {
+                  "value": "#A2ADAF",
+                  "type": "color"
+                },
+                "2": {
+                  "value": "#B9C2C3",
+                  "type": "color"
+                },
+                "1": {
+                  "value": "#D1D6D7",
+                  "type": "color"
+                },
+                "0": {
+                  "value": "#E8EBEB",
+                  "type": "color"
+                }
+            },
+            "black": {
+                "value": "#000000",
+                "type": "color"
+            },
+            "white": {
+                "value": "#ffffff",
+                "type": "color"
+            }
+        },
+        "teal": {
+            "9":{
                 "value": "#029B97",
                 "type": "color",
                 "comment": "BCC's primary color used for buttons, sidenav links and icons."
-            },
-            "celeste-50": {
-                "value": "#7AC6C4",
-                "type": "color",
-                "comment": "A 50% tint of BCC's primary color."
-            },
-            "celeste-20": {
-                "value": "#97F2EE",
-                "type": "color",
-                "comment": "A 20% tint of BCC's primary color used for input field focus states."
             }
         },
-        "backgrounds": {
+        "bg": {
             "white": {
-                "value": "#FFFFFF",
-                "type": "color",
-                "comment": "Color used for styling panel backgrounds."
+                "value": "#ffffff",
+                "type": "color"
             },
             "fog": {
                 "value": "#F3F5FB",

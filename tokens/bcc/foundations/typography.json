@@ -1,0 +1,90 @@
+{
+    "font": {
+        "family": {
+            "roboto": {
+                "value": "'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
+                "category": "font"
+            },
+            "monospace": {
+                "value": "'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace",
+                "category": "font"
+            }
+        },
+        "weight": {
+            "light": {
+                "value": "300",
+                "type": "weight",
+                "category": "font"
+            },
+            "regular": {
+                "value": "400",
+                "type": "weight",
+                "category": "font"
+            },
+            "medium": {
+                "value": "500",
+                "type": "weight",
+                "category": "font"
+            },  
+            "bold": {
+              "value": "700",
+              "type": "weight",
+              "category": "font"
+            }
+        },
+        "line_height": {
+            "headings": {
+                "value": "32px",
+                "category": "font"
+            },
+            "header_2": {
+                "value": "25px",
+                "category": "font"
+            },
+            "paragraph_1": {
+                "value": "22px",
+                "category": "font"
+            },
+            "paragraph_2": {
+                "value": "20px",
+                "category": "font"
+            }
+        },
+        "size": {
+            "h1": {
+                "value": "2rem",
+                "category": "typography"
+            },
+            "h2": {
+                "value": "1.5rem",
+                "category": "typography"
+            },
+            "h3": {
+                "value": "1.25rem",
+                "category": "typography"
+            },
+            "h4": {
+                "value": "1rem",
+                "category": "typography"
+            },
+            "h5": {
+                "value": "0.875rem",
+                "category": "typography"
+            },
+            "h6": {
+                "value": "0.75rem",
+                "category": "typography"
+            },
+            "body": {
+                "value": "0.875rem",
+                "category": "typography"
+            },
+            "small": {
+                "value": "0.75rem",
+                "category": "typography"
+            }
+        }
+    }
+}
+
+
