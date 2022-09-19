@@ -1,0 +1,33 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 19 Sep 2022 01:56:29 GMT
+ */
+
+:root {
+  --cds-color-base-gray-0: hsl(180, 7%, 92%);
+  --cds-color-base-gray-1: hsl(190, 7%, 83%);
+  --cds-color-base-gray-2: hsl(186, 8%, 75%);
+  --cds-color-base-gray-3: hsl(189, 8%, 66%);
+  --cds-color-base-gray-4: hsl(187, 7%, 58%);
+  --cds-color-base-gray-5: hsl(189, 8%, 49%);
+  --cds-color-base-gray-6: hsl(188, 11%, 41%);
+  --cds-color-base-gray-7: hsl(189, 16%, 32%);
+  --cds-color-base-gray-8: hsl(188, 24%, 24%);
+  --cds-color-base-gray-9: hsl(189, 41%, 15%);
+  --cds-color-base-black: hsl(0, 0%, 0%);
+  --cds-color-base-white: hsl(0, 0%, 100%);
+  --cds-color-teal-9: hsl(178, 97%, 31%); /* BCC's primary color used for buttons, sidenav links and icons. */
+  --cds-color-bg-white: hsl(0, 0%, 100%);
+  --cds-color-bg-fog: hsl(225, 50%, 97%); /* Color used for styling main application background. */
+  --cds-color-bg-alerts-success: hsl(141, 44%, 94%); /* Color used for styling success app callout backgrounds. */
+  --cds-color-bg-alerts-info: hsl(206, 50%, 95%); /* Color used for styling information app callout backgrounds. */
+  --cds-color-bg-alerts-warning: hsl(42, 83%, 95%); /* Color used for styling warning app callout backgrounds. */
+  --cds-color-bg-alerts-danger: hsl(354, 76%, 95%); /* Color used for styling danger app callout backgrounds. */
+  --cds-color-swatches-skydiver: hsl(206, 63%, 44%); /* Color used for styling information notifications, icons, and hyperlinks. */
+  --cds-color-swatches-goldfinger: hsl(41, 84%, 52%);
+  --cds-color-swatches-wonka: hsl(294, 43%, 28%);
+  --cds-color-swatches-retro: hsl(323, 76%, 40%); /* Color used for styling information modal pop-ups, and icons. */
+  --cds-color-swatches-success: hsl(144, 76%, 37%); /* Color used for styling success notifications and icons. */
+  --cds-color-swatches-danger: hsl(353, 76%, 51%); /* Color is used to callout inline validation error text and dangerous outcomes. */
+  --cds-color-swatches-warning: hsl(41, 76%, 31%); /* Color used to style warning notifications and text. */
+}

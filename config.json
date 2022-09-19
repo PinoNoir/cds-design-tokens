@@ -6,12 +6,12 @@
   ],
   "platforms": {
     "css": {
-      "transforms": ["attribute/cti", "name/cti/kebab", "color/hsl", "size/rem", "content/icon"],
+      "transforms": ["attribute/cti", "name/cti/kebab", "color/hsl", "time/seconds", "size/rem", "content/icon"],
       "transformGroup": "css",
       "buildPath": "build/css/",
       "prefix": "cds",
       "files": [{
-        "destination": "colors.css",
+        "destination": "_colors.css",
         "format": "css/variables",
         "filter": {
           "attributes": {
@@ -19,7 +19,7 @@
           }
         }
       },{
-        "destination": "sizes.css",
+        "destination": "_sizes.css",
         "format": "css/variables",
         "filter": {
           "attributes": {
@@ -27,7 +27,7 @@
           }
         }
       },{
-        "destination": "spacing.css",
+        "destination": "_spacing.css",
         "format": "css/variables",
         "filter": {
           "attributes": {
@@ -35,7 +35,15 @@
           }
         }
       },{
-        "destination": "typography.css",
+        "destination": "_border.css",
+        "format": "css/variables",
+        "filter": {
+          "attributes": {
+            "category": "border"
+          }
+        }
+      },{
+        "destination": "_typography.css",
         "format": "css/variables",
         "filter": {
           "attributes": {
@@ -43,7 +51,7 @@
           }
         }
       },{
-        "destination": "button.css",
+        "destination": "_button.css",
         "format": "css/variables",
         "filter": {
           "attributes": {
@@ -51,7 +59,7 @@
           }
         }
       },{
-        "destination": "input.css",
+        "destination": "_input.css",
         "format": "css/variables",
         "filter": {
           "attributes": {
@@ -61,7 +69,7 @@
       }]
     },
     "scss": {
-      "transforms": ["attribute/cti", "name/cti/kebab", "color/hsl", "size/rem", "content/icon"],
+      "transforms": ["attribute/cti", "name/cti/kebab", "color/hsl", "time/seconds", "size/rem", "content/icon"],
       "transformGroup": "scss",
       "buildPath": "build/scss/",
       "prefix": "cds",
@@ -87,6 +95,14 @@
         "filter": {
           "attributes": {
             "category": "spacing"
+          }
+        }
+      },{
+        "destination": "_border.scss",
+        "format": "scss/variables",
+        "filter": {
+          "attributes": {
+            "category": "border"
           }
         }
       },{
@@ -120,7 +136,7 @@
       "buildPath": "build/css/",
       "prefix": "cds",
       "files": [{
-        "destination": "icons.css",
+        "destination": "_icons.css",
         "format": "css/variables",
         "filter": {
           "attributes": {
@@ -129,7 +145,7 @@
           }
         }
       },{
-        "destination": "images.css",
+        "destination": "_images.css",
         "format": "css/variables",
         "filter": {
           "attributes": {
