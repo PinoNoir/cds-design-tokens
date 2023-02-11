@@ -1,0 +1,18 @@
+{
+  "animation": {
+    "default": {
+      "property": {
+        "value": "all",
+        "category": "animation"
+      },
+      "duration": {
+        "value": "300ms",
+        "category": "animation"
+      },
+      "timing": {
+        "value": "ease-out",
+        "category": "animation"
+      }
+    }
+  }
+}

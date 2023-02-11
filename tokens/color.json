@@ -1,0 +1,405 @@
+{
+  "color": {
+    "black": {
+      "value": "#000000",
+      "category": "color"
+    },
+    "white": {
+      "value": "#ffffff",
+      "category": "color"
+    },
+    "neutral": {
+      "9": {
+        "value": "hsl(189.4, 41%, 15.3%)",
+        "category": "color",
+        "comment": "Stretto's primary brand color used in the logo and customer facing websites"
+      },
+      "8": {
+        "value": "hsl(189.5, 32.8%, 22.7%)",
+        "category": "color"
+      },
+      "7": {
+        "value": "hsl(188, 30.2%, 29.2%)",
+        "category": "color"
+      },
+      "6": {
+        "value": "hsl(188.1, 28.3%, 36.1%)",
+        "category": "color"
+      },
+      "5": {
+        "value": "hsl(188.4, 27%, 41.4%)",
+        "category": "color"
+      },
+      "4": {
+        "value": "hsl(189.6, 19.7%, 50.2%)",
+        "category": "color"
+      },
+      "3": {
+        "value": "hsl(189.5, 21%, 58.8%)",
+        "category": "color"
+      },
+      "2": {
+        "value": "hsl(186, 7.7%, 74.5%)",
+        "category": "color"
+      },
+      "1": {
+        "value": "hsl(190, 7%, 83.1%)",
+        "category": "color"
+      },
+      "0": {
+        "value": "hsl(192, 50%, 92.2%)",
+        "category": "color"
+      }
+    },
+    "orange": {
+      "9": {
+        "value": "hsl(10.6, 71.8%, 43.1%)",
+        "category": "color"
+      },
+      "8": {
+        "value": "hsl(11, 69.2%, 49.6%)",
+        "category": "color"
+      },
+      "7": {
+        "value": "hsl(11.4, 77.4%, 53.1%)",
+        "category": "color"
+      },
+      "6": {
+        "value": "hsl(11.1, 88.2%, 56.9%)",
+        "category": "color"
+      },
+      "5": {
+        "value": "hsl(11.3, 98%, 59.8%)",
+        "category": "color"
+      },
+      "4": {
+        "value": "hsl(12.1, 97.7%, 65.3%)",
+        "category": "color",
+        "comment": "Stretto's secondary brand accent color used in the logo and customer facing websites"
+      },
+      "3": {
+        "value": "hsl(12.3, 97.3%, 71.4%)",
+        "category": "color"
+      },
+      "2": {
+        "value": "hsl(11.9, 96.2%, 79.4%)",
+        "category": "color"
+      },
+      "1": {
+        "value": "hsl(12.8, 93.8%, 87.3%)",
+        "category": "color"
+      },
+      "0": {
+        "value": "hsl(3.3, 64.3%, 94.5%)",
+        "category": "color"
+      }
+    },
+    "teal": {
+      "9": {
+        "value": "hsl(174.5, 88.4%, 16.9%)",
+        "category": "color"
+      },
+      "8": {
+        "value": "hsl(176.5, 91.2%, 22.4%)",
+        "category": "color"
+      },
+      "7": {
+        "value": "hsl(176.6, 96.9%, 25.1%)",
+        "category": "color"
+      },
+      "6": {
+        "value": "hsl(177.4, 97.2%, 28.2%)",
+        "category": "color"
+      },
+      "5": {
+        "value": "hsl(178.4, 97.5%, 30.8%)",
+        "category": "color",
+        "comment": "BCC Celeste - primary color used for buttons, sidenav links and icons."
+      },
+      "4": {
+        "value": "hsl(178.6, 62.7%, 41%)",
+        "category": "color"
+      },
+      "3": {
+        "value": "hsl(178.9, 43.7%, 52%)",
+        "category": "color"
+      },
+      "2": {
+        "value": "hsl(179.2, 43.7%, 65.9%)",
+        "category": "color"
+      },
+      "1": {
+        "value": "hsl(180, 42.9%, 79.4%)",
+        "category": "color"
+      },
+      "0": {
+        "value": "hsl(180, 42.9%, 91.8%)",
+        "category": "color"
+      }
+    },
+    "purple": {
+      "9": {
+        "value": "hsl(285.6, 43.1%, 22.7%)",
+        "category": "color"
+      },
+      "8": {
+        "value": "hsl(294.1, 42.7%, 28%)",
+        "category": "color",
+        "comment": "BCC Wonka - accent color used on the top border color for CNC modals and help content"
+      },
+      "7": {
+        "value": "hsl(298.2, 41.8%, 31%)",
+        "category": "color"
+      },
+      "6": {
+        "value": "hsl(304.1, 40.8%, 35.1%)",
+        "category": "color"
+      },
+      "5": {
+        "value": "hsl(307.6, 40.5%, 38.2%)",
+        "category": "color"
+      },
+      "4": {
+        "value": "hsl(308.1, 31.6%, 45.9%)",
+        "category": "color"
+      },
+      "3": {
+        "value": "hsl(308.4, 27.8%, 54.9%)",
+        "category": "color"
+      },
+      "2": {
+        "value": "hsl(308.8, 28.9%, 67.5%)",
+        "category": "color"
+      },
+      "1": {
+        "value": "hsl(308.3, 28.7%, 80.2%)",
+        "category": "color"
+      },
+      "0": {
+        "value": "hsl(310.9, 26.8%, 92%)",
+        "category": "color"
+      }
+    },
+    "magenta": {
+      "9": {
+        "value": "hsl(315.9, 72.7%, 31.6%)",
+        "category": "color"
+      },
+      "8": {
+        "value": "hsl(323, 76.2%, 39.6%)",
+        "category": "color",
+        "comment": "BCC 80's Hair - accent color used for in app user guides and help content"
+      },
+      "7": {
+        "value": "hsl(325.7, 77.8%, 44.1%)",
+        "category": "color"
+      },
+      "6": {
+        "value": "hsl(327.3, 80.6%, 48.6%)",
+        "category": "color"
+      },
+      "5": {
+        "value": "hsl(328.5, 89.4%, 52%)",
+        "category": "color"
+      },
+      "4": {
+        "value": "hsl(328.1, 85.2%, 60.2%)",
+        "category": "color"
+      },
+      "3": {
+        "value": "hsl(327.2, 82%, 67.3%)",
+        "category": "color"
+      },
+      "2": {
+        "value": "hsl(326.2, 78.3%, 76.5%)",
+        "category": "color"
+      },
+      "1": {
+        "value": "hsl(324, 73.3%, 85.3%)",
+        "category": "color"
+      },
+      "0": {
+        "value": "hsl(324.5, 73.3%, 94.1%)",
+        "category": "color"
+      }
+    },
+    "blue": {
+      "9": {
+        "value": "hsl(210.5, 62.6%, 35.7%)",
+        "category": "color"
+      },
+      "8": {
+        "value": "hsl(206, 62.7%, 44.1%)",
+        "category": "color",
+        "comment": "BCC Skydiver - accent color used for tertiary buttons and text links"
+      },
+      "7": {
+        "value": "hsl(204.5, 63.1%, 48.8%)",
+        "category": "color"
+      },
+      "6": {
+        "value": "hsl(202.7, 72.9%, 53.7%)",
+        "category": "color"
+      },
+      "5": {
+        "value": "hsl(201.8, 84.3%, 57.6%)",
+        "category": "color"
+      },
+      "4": {
+        "value": "hsl(200, 85.9%, 61%)",
+        "category": "color"
+      },
+      "3": {
+        "value": "hsl(198.6, 86%, 66.3%)",
+        "category": "color"
+      },
+      "2": {
+        "value": "hsl(198, 87.3%, 75.3%)",
+        "category": "color"
+      },
+      "1": {
+        "value": "hsl(197.6, 87.2%, 84.7%)",
+        "category": "color",
+        "comment": "Background color used for info alert components."
+      },
+      "0": {
+        "value": "hsl(197.8, 87.1%, 93.9%)",
+        "category": "color"
+      }
+    },
+    "green": {
+      "9": {
+        "value": "hsl(142, 100%, 19.2%)",
+        "category": "color"
+      },
+      "8": {
+        "value": "hsl(145.8, 100%, 25.5%)",
+        "category": "color"
+      },
+      "7": {
+        "value": "hsl(146.7, 96%, 29.4%)",
+        "category": "color"
+      },
+      "6": {
+        "value": "hsl(144.3, 76.5%, 36.7%)",
+        "category": "color",
+        "comment": "BCC Success - accent color used for success states and messaging"
+      },
+      "5": {
+        "value": "hsl(142.9, 69%, 41.8%)",
+        "category": "color"
+      },
+      "4": {
+        "value": "hsl(139.3, 47.7%, 52.7%",
+        "category": "color"
+      },
+      "3": {
+        "value": "hsl(137.8, 46.7%, 61.8%)",
+        "category": "color"
+      },
+      "2": {
+        "value": "hsl(136.5, 44.9%, 72.9%)",
+        "category": "color"
+      },
+      "1": {
+        "value": "hsl(134.6, 44.6%, 83.7%)",
+        "category": "color",
+        "comment": "Background color used for success alert components."
+      },
+      "0": {
+        "value": "hsl(135, 47.1%, 93.3%)",
+        "category": "color"
+      }
+    },
+    "yellow": {
+      "9": {
+        "value": "hsl(25.3, 83.3%, 49.2%)",
+        "category": "color",
+        "comment": "BCC Warning - accent color used for warning states and messaging"
+      },
+      "8": {
+        "value": "hsl(32.6, 82.5%, 50.6%)",
+        "category": "color"
+      },
+      "7": {
+        "value": "hsl(36.4, 83.1%, 51.4%)",
+        "category": "color"
+      },
+      "6": {
+        "value": "hsl(40.8, 83.5%, 52.4%)",
+        "category": "color",
+        "comment": "BCC Notifications - accent color used for pill/badge notifications"
+      },
+      "5": {
+        "value": "hsl(44.2, 83.9%, 53.7%)",
+        "category": "color"
+      },
+      "4": {
+        "value": "hsl(45.7, 84.4%, 57.3%)",
+        "category": "color"
+      },
+      "3": {
+        "value": "hsl(46.1, 84.7%, 64.1%)",
+        "category": "color"
+      },
+      "2": {
+        "value": "hsl(45.9, 83.5%, 73.9%)",
+        "category": "color"
+      },
+      "1": {
+        "value": "hsl(46.8, 82.9%, 83.9%)",
+        "category": "color",
+        "comment": "Background color used for warning alert components."
+      },
+      "0": {
+        "value": "hsl(48.9, 81.8%, 93.5%)",
+        "category": "color"
+      }
+    },
+    "red": {
+      "9": {
+        "value": "hsl(348.8, 100%, 38.8%)",
+        "category": "color",
+        "comment": "BCC Warning - accent color used for warning states and messaging"
+      },
+      "8": {
+        "value": "hsl(352.3, 78.2%, 46.7%)",
+        "category": "color"
+      },
+      "7": {
+        "value": "hsl(353.1, 76%, 51%)",
+        "category": "color",
+        "comment": "BCC Error - accent color used for danger buttons and error messaging"
+      },
+      "6": {
+        "value": "hsl(354.8, 89.1%, 56.9%)",
+        "category": "color"
+      },
+      "5": {
+        "value": "hsl(357.6, 100%, 61%)",
+        "category": "color"
+      },
+      "4": {
+        "value": "hsl(355.9, 96.7%, 64.7%)",
+        "category": "color"
+      },
+      "3": {
+        "value": "hsl(355.7, 79.6%, 69.2%)",
+        "category": "color"
+      },
+      "2": {
+        "value": "hsl(356, 83.5%, 78.6%)",
+        "category": "color"
+      },
+      "1": {
+        "value": "hsl(350.2, 100%, 90.4%)",
+        "category": "color",
+        "comment": "Background color used for error alert components."
+      },
+      "0": {
+        "value": "hsl(345, 100%, 96.1%)",
+        "category": "color"
+      }
+    }
+  }
+}

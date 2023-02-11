@@ -1,0 +1,24 @@
+{
+  "breakpoint": {
+    "sm": {
+      "value": "40em",
+      "category": "breakpoint",
+      "comment": "~640px"
+    },
+    "md": {
+      "value": "65em",
+      "category": "breakpoint",
+      "comment": "~1040px"
+    },
+    "lg": {
+      "value": "80em",
+      "category": "breakpoint",
+      "comment": "~1280px"
+    },
+    "xl": {
+      "value": "90em",
+      "category": "breakpoint",
+      "comment": "~1440px"
+    }
+  }
+}
