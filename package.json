@@ -1,5 +1,6 @@
 {
   "name": "cds-design-tokens",
+  "repository": "https://github.com/PinoNoir/cds-design-tokens.git",
   "version": "1.1.0",
   "description": "Official Cadence Design Tokens using Style Dictionary",
   "main": "build.js",
