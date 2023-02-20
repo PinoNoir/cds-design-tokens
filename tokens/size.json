@@ -1,0 +1,44 @@
+{
+  "size": {
+    "48": {
+      "value": "3rem",
+      "category": "size"
+    },
+    "40": {
+      "value": "2.5rem",
+      "category": "size"
+    },
+    "36": {
+      "value": "2.25rem",
+      "category": "size"
+    },
+    "32": {
+      "value": "2rem",
+      "category": "size"
+    },
+    "28": {
+      "value": "1.75rem",
+      "category": "size"
+    },
+    "24": {
+      "value": "1.5rem",
+      "category": "size"
+    },
+    "20": {
+      "value": "1.25rem",
+      "category": "size"
+    },
+    "16": {
+      "value": "1rem",
+      "category": "size"
+    },
+    "8": {
+      "value": ".5rem",
+      "category": "size"
+    },
+    "4": {
+      "value": ".25rem",
+      "category": "size"
+    }
+  }
+}

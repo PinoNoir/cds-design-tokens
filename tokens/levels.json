@@ -1,0 +1,36 @@
+{
+  "level": {
+    "toast": {
+      "value": "9000",
+      "category": "z-index"
+    },
+    "modal": {
+      "value": "8000",
+      "category": "z-index"
+    },
+    "mask": {
+      "value": "6000",
+      "category": "z-index"
+    },
+    "navigation": {
+      "value": "6000",
+      "category": "z-index"
+    },
+    "menu": {
+      "value": "2000",
+      "category": "z-index"
+    },
+    "header": {
+      "value": "1000",
+      "category": "z-index"
+    },
+    "data-grid": {
+      "value": "999",
+      "category": "z-index"
+    },
+    "content": {
+      "value": "0",
+      "category": "z-index"
+    }
+  }
+}
