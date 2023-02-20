@@ -1,0 +1,230 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 20 Feb 2023 03:34:29 GMT
+ */
+
+:root {
+  --cds-font-size-xs: 0.625rem;
+  --cds-font-size-sm: 0.75rem;
+  --cds-font-size-base: 0.875rem;
+  --cds-font-size-h6: 0.75rem;
+  --cds-font-size-h5: 0.875rem;
+  --cds-font-size-h4: 1rem;
+  --cds-font-size-h3: 1.25rem;
+  --cds-font-size-h2: 1.5rem;
+  --cds-font-size-h1: 2rem;
+  --cds-font-line-height-span: 1;
+  --cds-font-line-height-base: 1.5;
+  --cds-font-line-height-headings: 1.2;
+  --cds-font-weight-bold: 700;
+  --cds-font-weight-medium: 500;
+  --cds-font-weight-regular: 400;
+  --cds-font-weight-light: 300;
+  --cds-font-family-monospace: 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
+  --cds-font-family-base: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  --cds-spacing-mb-8: 3rem;
+  --cds-spacing-mb-7: 2.5rem;
+  --cds-spacing-mb-6: 2.25rem;
+  --cds-spacing-mb-5: 2rem;
+  --cds-spacing-mb-4: 1.5rem;
+  --cds-spacing-mb-3: 1rem;
+  --cds-spacing-mb-2: 0.5rem;
+  --cds-spacing-mb-1: 0.25rem;
+  --cds-spacing-mb-0: 0rem;
+  --cds-spacing-mt-8: 3rem;
+  --cds-spacing-mt-7: 2.5rem;
+  --cds-spacing-mt-6: 2.25rem;
+  --cds-spacing-mt-5: 2rem;
+  --cds-spacing-mt-4: 1.5rem;
+  --cds-spacing-mt-3: 1rem;
+  --cds-spacing-mt-2: 0.5rem;
+  --cds-spacing-mt-1: 0.25rem;
+  --cds-spacing-mt-0: 0rem;
+  --cds-spacing-my-8: 3rem;
+  --cds-spacing-my-7: 2.5rem;
+  --cds-spacing-my-6: 2.25rem;
+  --cds-spacing-my-5: 2rem;
+  --cds-spacing-my-4: 1.5rem;
+  --cds-spacing-my-3: 1rem;
+  --cds-spacing-my-2: 0.5rem;
+  --cds-spacing-my-1: 0.25rem;
+  --cds-spacing-my-0: 0rem;
+  --cds-spacing-mx-8: 3rem;
+  --cds-spacing-mx-7: 2.5rem;
+  --cds-spacing-mx-6: 2.25rem;
+  --cds-spacing-mx-5: 2rem;
+  --cds-spacing-mx-4: 1.5rem;
+  --cds-spacing-mx-3: 1rem;
+  --cds-spacing-mx-2: 0.5rem;
+  --cds-spacing-mx-1: 0.25rem;
+  --cds-spacing-mx-0: 0rem;
+  --cds-spacing-pb-8: 3rem;
+  --cds-spacing-pb-7: 2.5rem;
+  --cds-spacing-pb-6: 2.25rem;
+  --cds-spacing-pb-5: 2rem;
+  --cds-spacing-pb-4: 1.5rem;
+  --cds-spacing-pb-3: 1rem;
+  --cds-spacing-pb-2: 0.5rem;
+  --cds-spacing-pb-1: 0.25rem;
+  --cds-spacing-pb-0: 0rem;
+  --cds-spacing-pt-8: 3rem;
+  --cds-spacing-pt-7: 2.5rem;
+  --cds-spacing-pt-6: 2.25rem;
+  --cds-spacing-pt-5: 2rem;
+  --cds-spacing-pt-4: 1.5rem;
+  --cds-spacing-pt-3: 1rem;
+  --cds-spacing-pt-2: 0.5rem;
+  --cds-spacing-pt-1: 0.25rem;
+  --cds-spacing-pt-0: 0rem;
+  --cds-spacing-py-8: 3rem;
+  --cds-spacing-py-7: 2.5rem;
+  --cds-spacing-py-6: 2.25rem;
+  --cds-spacing-py-5: 2rem;
+  --cds-spacing-py-4: 1.5rem;
+  --cds-spacing-py-3: 1rem;
+  --cds-spacing-py-2: 0.5rem;
+  --cds-spacing-py-1: 0.25rem;
+  --cds-spacing-py-0: 0rem;
+  --cds-spacing-px-none: 0rem;
+  --cds-spacing-px-8: 3rem;
+  --cds-spacing-px-7: 2.5rem;
+  --cds-spacing-px-6: 2.25rem;
+  --cds-spacing-px-5: 2rem;
+  --cds-spacing-px-4: 1.5rem;
+  --cds-spacing-px-3: 1rem;
+  --cds-spacing-px-2: 0.5rem;
+  --cds-spacing-px-1: 0.25rem;
+  --cds-size-48: 3rem;
+  --cds-size-40: 2.5rem;
+  --cds-size-36: 2.25rem;
+  --cds-size-32: 2rem;
+  --cds-size-28: 1.75rem;
+  --cds-size-24: 1.5rem;
+  --cds-size-20: 1.25rem;
+  --cds-size-16: 1rem;
+  --cds-size-8: .5rem;
+  --cds-size-4: .25rem;
+  --cds-level-content: 0;
+  --cds-level-data-grid: 999;
+  --cds-level-header: 1000;
+  --cds-level-menu: 2000;
+  --cds-level-navigation: 6000;
+  --cds-level-mask: 6000;
+  --cds-level-modal: 8000;
+  --cds-level-toast: 9000;
+  --cds-elevation-3: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  --cds-elevation-2: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  --cds-elevation-1: 0px 0px 5px rgba(0, 0, 0, 0.15);
+  --cds-color-red-9: hsl(348.8, 100%, 38.8%); /* BCC Warning - accent color used for warning states and messaging */
+  --cds-color-red-8: hsl(352.3, 78.2%, 46.7%);
+  --cds-color-red-7: hsl(353.1, 76%, 51%); /* BCC Error - accent color used for danger buttons and error messaging */
+  --cds-color-red-6: hsl(354.8, 89.1%, 56.9%);
+  --cds-color-red-5: hsl(357.6, 100%, 61%);
+  --cds-color-red-4: hsl(355.9, 96.7%, 64.7%);
+  --cds-color-red-3: hsl(355.7, 79.6%, 69.2%);
+  --cds-color-red-2: hsl(356, 83.5%, 78.6%);
+  --cds-color-red-1: hsl(350.2, 100%, 90.4%); /* Background color used for error alert components. */
+  --cds-color-red-0: hsl(345, 100%, 96.1%);
+  --cds-color-yellow-9: hsl(25.3, 83.3%, 49.2%); /* BCC Warning - accent color used for warning states and messaging */
+  --cds-color-yellow-8: hsl(32.6, 82.5%, 50.6%);
+  --cds-color-yellow-7: hsl(36.4, 83.1%, 51.4%);
+  --cds-color-yellow-6: hsl(40.8, 83.5%, 52.4%); /* BCC Notifications - accent color used for pill/badge notifications */
+  --cds-color-yellow-5: hsl(44.2, 83.9%, 53.7%);
+  --cds-color-yellow-4: hsl(45.7, 84.4%, 57.3%);
+  --cds-color-yellow-3: hsl(46.1, 84.7%, 64.1%);
+  --cds-color-yellow-2: hsl(45.9, 83.5%, 73.9%);
+  --cds-color-yellow-1: hsl(46.8, 82.9%, 83.9%); /* Background color used for warning alert components. */
+  --cds-color-yellow-0: hsl(48.9, 81.8%, 93.5%);
+  --cds-color-green-9: hsl(142, 100%, 19.2%);
+  --cds-color-green-8: hsl(145.8, 100%, 25.5%);
+  --cds-color-green-7: hsl(146.7, 96%, 29.4%);
+  --cds-color-green-6: hsl(144.3, 76.5%, 36.7%); /* BCC Success - accent color used for success states and messaging */
+  --cds-color-green-5: hsl(142.9, 69%, 41.8%);
+  --cds-color-green-4: hsl(139.3, 47.7%, 52.7%);
+  --cds-color-green-3: hsl(137.8, 46.7%, 61.8%);
+  --cds-color-green-2: hsl(136.5, 44.9%, 72.9%);
+  --cds-color-green-1: hsl(134.6, 44.6%, 83.7%); /* Background color used for success alert components. */
+  --cds-color-green-0: hsl(135, 47.1%, 93.3%);
+  --cds-color-blue-9: hsl(210.5, 62.6%, 35.7%);
+  --cds-color-blue-8: hsl(206, 62.7%, 44.1%); /* BCC Skydiver - accent color used for tertiary buttons and text links */
+  --cds-color-blue-7: hsl(204.5, 63.1%, 48.8%);
+  --cds-color-blue-6: hsl(202.7, 72.9%, 53.7%);
+  --cds-color-blue-5: hsl(201.8, 84.3%, 57.6%);
+  --cds-color-blue-4: hsl(200, 85.9%, 61%);
+  --cds-color-blue-3: hsl(198.6, 86%, 66.3%);
+  --cds-color-blue-2: hsl(198, 87.3%, 75.3%);
+  --cds-color-blue-1: hsl(197.6, 87.2%, 84.7%); /* Background color used for info alert components. */
+  --cds-color-blue-0: hsl(197.8, 87.1%, 93.9%);
+  --cds-color-magenta-9: hsl(315.9, 72.7%, 31.6%);
+  --cds-color-magenta-8: hsl(323, 76.2%, 39.6%); /* BCC 80's Hair - accent color used for in app user guides and help content */
+  --cds-color-magenta-7: hsl(325.7, 77.8%, 44.1%);
+  --cds-color-magenta-6: hsl(327.3, 80.6%, 48.6%);
+  --cds-color-magenta-5: hsl(328.5, 89.4%, 52%);
+  --cds-color-magenta-4: hsl(328.1, 85.2%, 60.2%);
+  --cds-color-magenta-3: hsl(327.2, 82%, 67.3%);
+  --cds-color-magenta-2: hsl(326.2, 78.3%, 76.5%);
+  --cds-color-magenta-1: hsl(324, 73.3%, 85.3%);
+  --cds-color-magenta-0: hsl(324.5, 73.3%, 94.1%);
+  --cds-color-purple-9: hsl(285.6, 43.1%, 22.7%);
+  --cds-color-purple-8: hsl(294.1, 42.7%, 28%); /* BCC Wonka - accent color used on the top border color for CNC modals and help content */
+  --cds-color-purple-7: hsl(298.2, 41.8%, 31%);
+  --cds-color-purple-6: hsl(304.1, 40.8%, 35.1%);
+  --cds-color-purple-5: hsl(307.6, 40.5%, 38.2%);
+  --cds-color-purple-4: hsl(308.1, 31.6%, 45.9%);
+  --cds-color-purple-3: hsl(308.4, 27.8%, 54.9%);
+  --cds-color-purple-2: hsl(308.8, 28.9%, 67.5%);
+  --cds-color-purple-1: hsl(308.3, 28.7%, 80.2%);
+  --cds-color-purple-0: hsl(310.9, 26.8%, 92%);
+  --cds-color-teal-9: hsl(174.5, 88.4%, 16.9%);
+  --cds-color-teal-8: hsl(176.5, 91.2%, 22.4%);
+  --cds-color-teal-7: hsl(176.6, 96.9%, 25.1%);
+  --cds-color-teal-6: hsl(177.4, 97.2%, 28.2%);
+  --cds-color-teal-5: hsl(178.4, 97.5%, 30.8%); /* BCC Celeste - primary color used for buttons, sidenav links and icons. */
+  --cds-color-teal-4: hsl(178.6, 62.7%, 41%);
+  --cds-color-teal-3: hsl(178.9, 43.7%, 52%);
+  --cds-color-teal-2: hsl(179.2, 43.7%, 65.9%);
+  --cds-color-teal-1: hsl(180, 42.9%, 79.4%);
+  --cds-color-teal-0: hsl(180, 42.9%, 91.8%);
+  --cds-color-orange-9: hsl(10.6, 71.8%, 43.1%);
+  --cds-color-orange-8: hsl(11, 69.2%, 49.6%);
+  --cds-color-orange-7: hsl(11.4, 77.4%, 53.1%);
+  --cds-color-orange-6: hsl(11.1, 88.2%, 56.9%);
+  --cds-color-orange-5: hsl(11.3, 98%, 59.8%);
+  --cds-color-orange-4: hsl(12.1, 97.7%, 65.3%); /* Stretto's secondary brand accent color used in the logo and customer facing websites */
+  --cds-color-orange-3: hsl(12.3, 97.3%, 71.4%);
+  --cds-color-orange-2: hsl(11.9, 96.2%, 79.4%);
+  --cds-color-orange-1: hsl(12.8, 93.8%, 87.3%);
+  --cds-color-orange-0: hsl(3.3, 64.3%, 94.5%);
+  --cds-color-neutral-9: hsl(189.4, 41%, 15.3%); /* Stretto's primary brand color used in the logo and customer facing websites */
+  --cds-color-neutral-8: hsl(189.5, 32.8%, 22.7%);
+  --cds-color-neutral-7: hsl(188, 30.2%, 29.2%);
+  --cds-color-neutral-6: hsl(188.1, 28.3%, 36.1%);
+  --cds-color-neutral-5: hsl(188.4, 27%, 41.4%);
+  --cds-color-neutral-4: hsl(189.6, 19.7%, 50.2%);
+  --cds-color-neutral-3: hsl(189.5, 21%, 58.8%);
+  --cds-color-neutral-2: hsl(186, 7.7%, 74.5%);
+  --cds-color-neutral-1: hsl(190, 7%, 83.1%);
+  --cds-color-neutral-0: hsl(192, 50%, 92.2%);
+  --cds-color-white: #ffffff;
+  --cds-color-black: #000000;
+  --cds-breakpoint-xl: 90em; /* ~1440px */
+  --cds-breakpoint-lg: 80em; /* ~1280px */
+  --cds-breakpoint-md: 65em; /* ~1040px */
+  --cds-breakpoint-sm: 40em; /* ~640px */
+  --cds-border-width-5: 5px;
+  --cds-border-width-4: 4px;
+  --cds-border-width-3: 3px;
+  --cds-border-width-2: 2px;
+  --cds-border-width-1: 1px;
+  --cds-border-radius-responsive: clamp(0px, calc(100vw - 100%) * 1e5, var(--cds-border-radius-6));
+  --cds-border-radius-round: 1e5px;
+  --cds-border-radius-6: 0.375rem;
+  --cds-border-radius-5: 0.313rem;
+  --cds-border-radius-4: 0.25rem;
+  --cds-border-radius-3: 0.188rem;
+  --cds-border-radius-2: 0.125rem;
+  --cds-border-radius-1: 0.063rem;
+  --cds-animation-default-timing: ease-out;
+  --cds-animation-default-duration: 300ms;
+  --cds-animation-default-property: all;
+}
