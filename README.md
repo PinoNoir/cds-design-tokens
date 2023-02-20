@@ -1,4 +1,4 @@
-# Cadence Design System BCC Tokens
+# CDS Design Tokens
 
 This project is a [Style Dictionary](https://github.com/amzn/style-dictionary) configuration to generate design tokens for _Cadence Design System_.
 
