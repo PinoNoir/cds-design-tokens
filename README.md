@@ -17,8 +17,8 @@ yarn install style-dictionary
 Project file and folder structure:
 
 - `/tokens` contains the design token input files (in JSON format)
-- `/build` contains the generated output files (This version is only configured to output SCSS files)
-- `config.json` is the script used to generate the output files
+- `/dist` contains the generated output files (This version is configured to output JS, CSS, & SCSS files)
+- `sd.config.js` is the script used to generate the output files
 
 ## Editing the JSON files
 
@@ -29,16 +29,16 @@ Project file and folder structure:
 You can build the design tokens from the `/tokens/` folder using the CLI command:
 
 ```text
-style-dictionary build
+yarn build
 ```
 
 You can automatically re-build the tokens at every change using the command:
 
 ```text
-yarn run watch
+yarn watch
 ```
 
-The generated tokens are saved in the `/build` folder, and organised by target platform.
+The generated tokens are saved in the `/dist` folder, and organised by target file type/format.
 
 ## License
 

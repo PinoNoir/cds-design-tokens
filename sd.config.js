@@ -28,7 +28,7 @@ module.exports = {
     js: {
       transforms: ["name/cti/camel", "color/hsl"],
       transformGroup: 'js',
-      buildPath: 'build/js/',
+      buildPath: 'dist/js/',
       prefix: 'cds',
       files: [{
         destination: 'cds-tokens.js',
@@ -41,10 +41,10 @@ module.exports = {
     css: {
       transforms: ["name/cti/kebab", "color/hsl"],
       transformGroup: 'css',
-      buildPath: 'build/css/',
+      buildPath: 'dist/css/',
       prefix: 'cds',
       files: [{
-        destination: '_cds-tokens.css',
+        destination: 'cds-tokens.css',
         format: 'css/variables',
         options: {
           outputReferences: true, // new setting, if true will use variable references
@@ -54,10 +54,10 @@ module.exports = {
     scss: {
       transforms: ["name/cti/kebab", "color/hsl"],
       transformGroup: 'scss',
-      buildPath: 'build/scss/',
+      buildPath: 'dist/scss/',
       prefix: 'cds',
       files: [{
-        destination: '_cds-tokens.scss',
+        destination: 'cds-tokens.scss',
         format: 'scss/variables',
         options: {
           outputReferences: true, // new setting, if true will use variable references
