@@ -1,6 +1,6 @@
 # Cadence Design System BCC Tokens
 
-This project is a possible [Style Dictionary](https://github.com/amzn/style-dictionary) configuration to generate design tokens for _Cadence Design System_.
+This project is a [Style Dictionary](https://github.com/amzn/style-dictionary) configuration to generate design tokens for _Cadence Design System_.
 
 **Notice**: _This code has been customized to work for all of Stretto's brands (AW, BCC, CP, TSC, TW) and platforms (Web), which can be exteded and built upon for additional platforms in the future. To view all the possible Style Dictionary configurations visit [API methods](https://amzn.github.io/style-dictionary/#/api)._
 
@@ -8,7 +8,7 @@ This project is a possible [Style Dictionary](https://github.com/amzn/style-dict
 
 Install the project dependencies via the CLI command:
 
-```
+```text
 yarn install style-dictionary
 ```
 
@@ -28,13 +28,13 @@ Project file and folder structure:
 
 You can build the design tokens from the `/tokens/` folder using the CLI command:
 
-```
+```text
 style-dictionary build
 ```
 
 You can automatically re-build the tokens at every change using the command:
 
-```
+```text
 yarn run watch
 ```
 

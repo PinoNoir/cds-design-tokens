@@ -26,11 +26,12 @@ module.exports = {
   source: ['tokens/**/*.json'],
   platforms: {
     js: {
+      transforms: ["name/cti/camel", "color/hsl"],
       transformGroup: 'js',
       buildPath: 'build/js/',
       prefix: 'cds',
       files: [{
-        destination: '_cds-token-variables.js',
+        destination: 'cds-tokens.js',
         format: 'customFormat',
         options: {
           outputReferences: true,
@@ -38,11 +39,12 @@ module.exports = {
       }]
     },
     css: {
+      transforms: ["name/cti/kebab", "color/hsl"],
       transformGroup: 'css',
       buildPath: 'build/css/',
       prefix: 'cds',
       files: [{
-        destination: '_cds-token-variables.css',
+        destination: '_cds-tokens.css',
         format: 'css/variables',
         options: {
           outputReferences: true, // new setting, if true will use variable references
@@ -50,11 +52,12 @@ module.exports = {
       }]
     },
     scss: {
+      transforms: ["name/cti/kebab", "color/hsl"],
       transformGroup: 'scss',
       buildPath: 'build/scss/',
       prefix: 'cds',
       files: [{
-        destination: '_cds-token-variables.scss',
+        destination: '_cds-tokens.scss',
         format: 'scss/variables',
         options: {
           outputReferences: true, // new setting, if true will use variable references

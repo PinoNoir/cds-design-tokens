@@ -1,23 +1,19 @@
 {
   "name": "cds-design-tokens",
   "version": "1.0.0",
-  "description": "Implementation of CDS Tokens using Style Dictionary",
+  "description": "Official Cadence Design Tokens using Style Dictionary",
   "main": "build.js",
   "author": "Nicholas Pino",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "style-dictionary build --config ./sd.config.js"
+    "build": "style-dictionary build --config ./sd.config.js",
+    "watch": "yarn run build && chokidar  \"tokens/**/*.json\" -c \"yarn run build\""
   },
   "devDependencies": {
-    "lodash": "^4.17.21",
-    "style-dictionary": "^3.7.1"
-  },
-  "dependencies": {
     "chokidar": "^3.5.3",
     "chokidar-cli": "^3.0.0",
-    "git": "^0.1.5",
     "handlebars": "^4.7.7",
-    "yarn": "^1.22.19"
+    "lodash": "^4.17.21",
+    "style-dictionary": "^3.7.1"
   }
 }
