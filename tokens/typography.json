@@ -1,112 +1,88 @@
 {
-    "font": {
-        "family": {
-            "base": {
-                "value": "'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
-                "category": "typography"
-            },
-            "monospace": {
-                "value": "'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace",
-                "category": "typography"
-            }
-        },
-        "weight": {
-            "light": {
-                "value": "300",
-                "type": "weight",
-                "category": "typography"
-            },
-            "regular": {
-                "value": "400",
-                "type": "weight",
-                "category": "typography"
-            },
-            "medium": {
-                "value": "500",
-                "type": "weight",
-                "category": "typography"
-            },  
-            "bold": {
-              "value": "700",
-              "type": "weight",
-              "category": "typography"
-            }
-        },
-        "line-height": {
-            "headings": {
-                "value": "1.2",
-                "category": "typography"
-            },
-            "base": {
-                "value": "1.5",
-                "category": "typography"
-            },
-            "span": {
-                "value": "1",
-                "category": "typography"
-            }
-        },
-        "size": {
-            "h1": {
-                "value": "2rem",
-                "category": "typography"
-            },
-            "h2": {
-                "value": "1.5rem",
-                "category": "typography"
-            },
-            "h3": {
-                "value": "1.25rem",
-                "category": "typography"
-            },
-            "h4": {
-                "value": "1rem",
-                "category": "typography"
-            },
-            "h5": {
-                "value": "0.875rem",
-                "category": "typography"
-            },
-            "h6": {
-                "value": "0.75rem",
-                "category": "typography"
-            },
-            "base": {
-                "value": "0.875rem",
-                "category": "typography"
-            },
-            "sm": {
-                "value": "0.75rem",
-                "category": "typography"
-            },
-            "xs": {
-                "value": "0.625rem",
-                "category": "typography"
-            }
-        },
-        "color": {
-            "base": {
-                "value": "{color.neutral.9.value}",
-                "category": "typography"
-            },
-            "secondary":{
-                "value": "{color.neutral.5.value}",
-                "category": "typography"
-            },
-            "links":{
-                "value": "{color.blue.8.value}",
-                "category": "typography"
-            },
-            "on-dark": {
-                "value": "{color.neutral.0.value}",
-                "category": "typography"
-            },
-            "on-light": {
-                "value": "{color.neutral.9.value}",
-                "category": "typography"
-            }
-        }
+  "font": {
+    "family": {
+      "base": {
+        "value": "'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
+        "category": "typography"
+      },
+      "monospace": {
+        "value": "'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace",
+        "category": "typography"
+      }
+    },
+    "weight": {
+      "light": {
+        "value": "300",
+        "type": "weight",
+        "category": "typography"
+      },
+      "regular": {
+        "value": "400",
+        "type": "weight",
+        "category": "typography"
+      },
+      "medium": {
+        "value": "500",
+        "type": "weight",
+        "category": "typography"
+      },
+      "bold": {
+        "value": "700",
+        "type": "weight",
+        "category": "typography"
+      }
+    },
+    "line-height": {
+      "headings": {
+        "value": "1.2",
+        "category": "typography"
+      },
+      "base": {
+        "value": "1.5",
+        "category": "typography"
+      },
+      "span": {
+        "value": "1",
+        "category": "typography"
+      }
+    },
+    "size": {
+      "h1": {
+        "value": "2rem",
+        "category": "typography"
+      },
+      "h2": {
+        "value": "1.5rem",
+        "category": "typography"
+      },
+      "h3": {
+        "value": "1.25rem",
+        "category": "typography"
+      },
+      "h4": {
+        "value": "1rem",
+        "category": "typography"
+      },
+      "h5": {
+        "value": "0.875rem",
+        "category": "typography"
+      },
+      "h6": {
+        "value": "0.75rem",
+        "category": "typography"
+      },
+      "base": {
+        "value": "0.875rem",
+        "category": "typography"
+      },
+      "sm": {
+        "value": "0.75rem",
+        "category": "typography"
+      },
+      "xs": {
+        "value": "0.625rem",
+        "category": "typography"
+      }
     }
+  }
 }
-
-
